@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig((env: ConfigEnv) => ({
     plugins: [tailwindcss(), react()],
-    base: env.command === "build" ? "/" : "/",
+    base: env.command === "build" ? "/FLARE" : "/",
 }));
